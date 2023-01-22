@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import LogoHeader from "./component/LogoTop/LogoHeader.vue";
+import LogoHeader from "./component/LogoTop/LogoHeader.vue"
 import MainBackg from "./component/Main/MainBackg.vue";
 export default {
   name: 'App',
