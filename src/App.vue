@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-   <LogoHeader/>
-   <MainBackg />
+    <LogoHeader/>
+    <MainBackg />
   </div>
 </template>
 
 <script>
-import LogoHeader from ".";
-import MainBackg from ".";
+import LogoHeader from "./component/LogoTop/LogoHeader.vue";
+import MainBackg from "./component/Main/MainBackg.vue";
 export default {
   name: 'App',
   components: {
