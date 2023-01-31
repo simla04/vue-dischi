@@ -10,6 +10,7 @@
         </option>
       </select>
     </div>
+    
 
     <CardComp v-for="(elem, index) in search" :key="index" :get="elem" />
   </div>
